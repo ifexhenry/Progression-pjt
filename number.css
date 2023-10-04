@@ -1,0 +1,42 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 50px; 
+}
+
+.first{
+    background-color: white;
+    width: 500px;
+    height: 50px;
+    display: flex;
+    word-spacing: 40px;
+    gap: 20px;
+    justify-content: center;
+    padding: 15px;
+    
+}
+
+
+.first div{
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: aqua;
+    margin-right: 10px;
+}
+
+.opacity{
+    width: 500px;
+    height: 55px;
+    background-color: aqua;
+    opacity: 0.9;
+    margin-bottom: 100px;
+}
